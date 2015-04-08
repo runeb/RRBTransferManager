@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import RRBTransferManager
 
 class ViewController: UIViewController {
+  let transferManager:RRBTransferManager = RRBTransferManager.sharedInstance
 
   override func viewDidLoad() {
     super.viewDidLoad()

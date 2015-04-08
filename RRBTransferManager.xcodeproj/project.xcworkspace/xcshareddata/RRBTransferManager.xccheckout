@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>93001563-9E52-42C8-BDE3-858A78EDCF65</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RRBTransferManager</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EEDA9A0402942D6AF6ECE53115A9B36AEE65F273</key>
+		<string>https://github.com/runeb/RRBTransferManager.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RRBTransferManager.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EEDA9A0402942D6AF6ECE53115A9B36AEE65F273</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/runeb/RRBTransferManager.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EEDA9A0402942D6AF6ECE53115A9B36AEE65F273</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EEDA9A0402942D6AF6ECE53115A9B36AEE65F273</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RRBTransferManager</string>
+		</dict>
+	</array>
+</dict>
+</plist>

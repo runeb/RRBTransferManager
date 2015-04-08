@@ -15,6 +15,18 @@
 		B500A17A1AD5B83A00F3C267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B500A1781AD5B83A00F3C267 /* Main.storyboard */; };
 		B500A17C1AD5B83A00F3C267 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B500A17B1AD5B83A00F3C267 /* Images.xcassets */; };
 		B500A17F1AD5B83A00F3C267 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B500A17D1AD5B83A00F3C267 /* LaunchScreen.xib */; };
+		B500A19C1AD5B94B00F3C267 /* TMCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B500A1961AD5B94B00F3C267 /* TMCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B500A19D1AD5B94B00F3C267 /* TMCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B500A1971AD5B94B00F3C267 /* TMCache.m */; };
+		B500A19E1AD5B94B00F3C267 /* TMCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B500A1971AD5B94B00F3C267 /* TMCache.m */; };
+		B500A19F1AD5B94B00F3C267 /* TMDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B500A1981AD5B94B00F3C267 /* TMDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B500A1A01AD5B94B00F3C267 /* TMDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B500A1991AD5B94B00F3C267 /* TMDiskCache.m */; };
+		B500A1A11AD5B94B00F3C267 /* TMDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B500A1991AD5B94B00F3C267 /* TMDiskCache.m */; };
+		B500A1A21AD5B94B00F3C267 /* TMMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = B500A19A1AD5B94B00F3C267 /* TMMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B500A1A31AD5B94B00F3C267 /* TMMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B500A19B1AD5B94B00F3C267 /* TMMemoryCache.m */; };
+		B500A1A41AD5B94B00F3C267 /* TMMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B500A19B1AD5B94B00F3C267 /* TMMemoryCache.m */; };
+		B500A1A61AD5B97000F3C267 /* RRBTransferManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500A1A51AD5B97000F3C267 /* RRBTransferManager.swift */; };
+		B500A1A71AD5B97000F3C267 /* RRBTransferManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B500A1A51AD5B97000F3C267 /* RRBTransferManager.swift */; };
+		B500A1AC1AD5BAA700F3C267 /* RRBTransferManager.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B500A1501AD5B80A00F3C267 /* RRBTransferManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +44,27 @@
 			remoteGlobalIDString = B500A16F1AD5B83A00F3C267;
 			remoteInfo = "Test iOS App";
 		};
+		B500A1A81AD5BA8C00F3C267 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B500A1471AD5B80A00F3C267 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B500A14F1AD5B80A00F3C267;
+			remoteInfo = RRBTransferManager;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B500A1AB1AD5BA9A00F3C267 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B500A1AC1AD5BAA700F3C267 /* RRBTransferManager.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B500A1501AD5B80A00F3C267 /* RRBTransferManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RRBTransferManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +80,13 @@
 		B500A1791AD5B83A00F3C267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B500A17B1AD5B83A00F3C267 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B500A17E1AD5B83A00F3C267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B500A1961AD5B94B00F3C267 /* TMCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMCache.h; sourceTree = "<group>"; };
+		B500A1971AD5B94B00F3C267 /* TMCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMCache.m; sourceTree = "<group>"; };
+		B500A1981AD5B94B00F3C267 /* TMDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMDiskCache.h; sourceTree = "<group>"; };
+		B500A1991AD5B94B00F3C267 /* TMDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMDiskCache.m; sourceTree = "<group>"; };
+		B500A19A1AD5B94B00F3C267 /* TMMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMMemoryCache.h; sourceTree = "<group>"; };
+		B500A19B1AD5B94B00F3C267 /* TMMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMMemoryCache.m; sourceTree = "<group>"; };
+		B500A1A51AD5B97000F3C267 /* RRBTransferManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RRBTransferManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +118,7 @@
 		B500A1461AD5B80A00F3C267 = {
 			isa = PBXGroup;
 			children = (
+				B500A1941AD5B90200F3C267 /* libs */,
 				B500A1521AD5B80A00F3C267 /* RRBTransferManager */,
 				B500A15F1AD5B80B00F3C267 /* RRBTransferManagerTests */,
 				B500A1711AD5B83A00F3C267 /* Test iOS App */,
@@ -101,6 +141,7 @@
 			children = (
 				B500A1551AD5B80A00F3C267 /* RRBTransferManager.h */,
 				B500A1531AD5B80A00F3C267 /* Supporting Files */,
+				B500A1A51AD5B97000F3C267 /* RRBTransferManager.swift */,
 			);
 			path = RRBTransferManager;
 			sourceTree = "<group>";
@@ -151,6 +192,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B500A1941AD5B90200F3C267 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				B500A1951AD5B94B00F3C267 /* TMCache */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		B500A1951AD5B94B00F3C267 /* TMCache */ = {
+			isa = PBXGroup;
+			children = (
+				B500A1961AD5B94B00F3C267 /* TMCache.h */,
+				B500A1971AD5B94B00F3C267 /* TMCache.m */,
+				B500A1981AD5B94B00F3C267 /* TMDiskCache.h */,
+				B500A1991AD5B94B00F3C267 /* TMDiskCache.m */,
+				B500A19A1AD5B94B00F3C267 /* TMMemoryCache.h */,
+				B500A19B1AD5B94B00F3C267 /* TMMemoryCache.m */,
+			);
+			path = TMCache;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -158,7 +220,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B500A19C1AD5B94B00F3C267 /* TMCache.h in Headers */,
 				B500A1561AD5B80A00F3C267 /* RRBTransferManager.h in Headers */,
+				B500A19F1AD5B94B00F3C267 /* TMDiskCache.h in Headers */,
+				B500A1A21AD5B94B00F3C267 /* TMMemoryCache.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,10 +274,12 @@
 				B500A16C1AD5B83A00F3C267 /* Sources */,
 				B500A16D1AD5B83A00F3C267 /* Frameworks */,
 				B500A16E1AD5B83A00F3C267 /* Resources */,
+				B500A1AB1AD5BA9A00F3C267 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B500A1A91AD5BA8C00F3C267 /* PBXTargetDependency */,
 			);
 			name = "Test iOS App";
 			productName = "Test iOS App";
@@ -292,6 +359,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B500A1A01AD5B94B00F3C267 /* TMDiskCache.m in Sources */,
+				B500A1A61AD5B97000F3C267 /* RRBTransferManager.swift in Sources */,
+				B500A1A31AD5B94B00F3C267 /* TMMemoryCache.m in Sources */,
+				B500A19D1AD5B94B00F3C267 /* TMCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +370,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B500A1A71AD5B97000F3C267 /* RRBTransferManager.swift in Sources */,
+				B500A1A41AD5B94B00F3C267 /* TMMemoryCache.m in Sources */,
 				B500A1631AD5B80B00F3C267 /* RRBTransferManagerTests.swift in Sources */,
+				B500A19E1AD5B94B00F3C267 /* TMCache.m in Sources */,
+				B500A1A11AD5B94B00F3C267 /* TMDiskCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +399,11 @@
 			isa = PBXTargetDependency;
 			target = B500A16F1AD5B83A00F3C267 /* Test iOS App */;
 			targetProxy = B500A1921AD5B84300F3C267 /* PBXContainerItemProxy */;
+		};
+		B500A1A91AD5BA8C00F3C267 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B500A14F1AD5B80A00F3C267 /* RRBTransferManager */;
+			targetProxy = B500A1A81AD5BA8C00F3C267 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -435,6 +515,7 @@
 		B500A1671AD5B80B00F3C267 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -444,12 +525,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		B500A1681AD5B80B00F3C267 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
